@@ -1120,7 +1120,7 @@ async function startQuiz(){
 // TIMER
 // ═══════════════════════════════════════════
 function startTimer(){
-  let remaining = S.mode === 'drill' ? DRILL_MINUTES * 60 : 99 * 60; // mock has 99 min cap
+  let remaining = S.mode === 'drill' ? DRILL_MINUTES * 60 : 25 * 60; // mock has 25 min cap
   const el = document.getElementById('timerDisplay');
   const hud = document.getElementById('hudTimer');
 
